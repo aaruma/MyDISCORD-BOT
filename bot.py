@@ -22,7 +22,7 @@ async def on_member_join(member):
 @client.event
 async def on_message(message):
     id = client.get_guild(808863023350415430) # Server id  
-    channels = ["music", "general", "discordbot"]
+    # channels = ["music", "general", etc..]
     bad_words = ["fudge", "Fudge", "FUDGE", "fuck", "bitch", "BITCH", "Bitch", "nigga", "coon", "COON", "Coon", "nigger", "fucking", "cunt", "FUCK", "Fuck", "NIGGER", "NIGGA", "CUNT", "Cunt", "Nigger", "Nigga", "Fucking"]
     troll_words = ["TROLLIN", "Troll"]
     
